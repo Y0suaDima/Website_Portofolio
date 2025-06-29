@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio [Nama Anda]</title>
+    <style>
+        /* Desain Umum */
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #f4f7f6;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        .container {
+            font-family: 'Times New Roman', Times, serif;
+            max-width: 960px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        /* Header & Navigasi */
+        header {
+            font-family: 'Times New Roman', Times, serif;
+            background-color: #3f51b5; /* Warna biru gelap elegan */
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        header h1 {
+            font-family: 'Times New Roman', Times, serif;
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        nav ul {
+            font-family: garamond;
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.1em;
+            transition: color 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            color: #ffffff; /* Warna kuning untuk hover */
+        }
+
+        /* Bagian Utama */
+        section {
+            background-color: #fff;
+            margin-bottom: 20px;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        }
+
+        section h2 {
+            color: #3f51b5;
+            text-align: center;
+            margin-bottom: 25px;
+            font-size: 2em;
+        }
+
+        /* Bagian Tentang Saya */
+        .about-me {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            flex-wrap: wrap; /* Untuk responsif */
+            justify-content: center;
+            text-align: center; /* Untuk teks di bawah gambar */
+        }
+
+        .about-me img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 4px solid #3f51b5;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        .about-me p {
+            max-width: 600px;
+            margin: 10px auto;
+        }
+
+        /* Bagian Hobi */
+         .hobi ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+
+    .hobi li {
+      background-color: var(--color-nav-hover-bg);
+      color: bl;
+      padding: 0.7rem 1.2rem;
+      border-radius: 20px;
+      font-weight: 600;
+      font-size: 1rem;
+      user-select: none;
+      box-shadow: 0 4px 10px rgba(26, 188, 156, 0.4);
+      transition: background-color 0.3s ease;
+      cursor: default;
+    }
+
+     .hobi li:hover {
+      background-color: #3616a0;
+    }
+      background-color: #3616a0;
+        /* Bagian Kontak */
+        .contact-info {
+            text-align: center;
+        }
+
+        .contact-info p {
+            font-size: 1.1em;
+            margin-bottom: 10px;
+        }
+
+        .contact-info a {
+            color: #3f51b5;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: #fff;
+            font-size: 0.9em;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1> Hallo, Saya Yosua Bernard Dima </h1>
+            <p>Mahasiswa Teknik Informatika | Universitas Kristen Wira Wacana Sumba </p>
+            <nav>
+                <ul>
+                    <li><a href="#about">Tentang Saya</a></li>
+                    <li><a href="#projects"> Hobi </a></li>
+                    <li><a href="#contact">Kontak</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <section id="about">
+            <h2>Tentang Saya</h2>
+            <div class="about-me">
+                <img src="d:\Pegenalan Wen_Kelas A\IMG_20230218_230031_234.jpg" alt="Foto Profil Anda">
+                <div>
+                    <p>Halo! Nama saya Yosua Bernard Dima, seorang mahasiswa semester 4 di jurusan Teknik Informatika di Universitas Kristen Wira Wacana Sumba.</p>
+                </div>
+            </div>
+        </section>
+
+       <section id="Hobi" class="Hobi" aria-labelledby="Hobi-title">
+      <h2 id="Hobi-title">Hobi</h2>
+      <ul>
+        <li> Olahraga</li>
+        <li> Membaca Buku </li>
+        <li> Jalan-jalan </li>
+      </ul>
+    </section>
+       
+    <section id="contact">
+            <h2>Kontak</h2>
+            <div class="contact-info">
+                <p>Email: <a href="yosuadima213@gmail.com">yosuadima213@gamial.com</a></p>
+                <p>Nomor Hp: <a href="081213322011" target="_blank"> 081213322011 </p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Yosua Bernard Dima. Hak Cipta Dilindungi.</p>
+        </div>
+    </footer>
+</body>
+</html>
